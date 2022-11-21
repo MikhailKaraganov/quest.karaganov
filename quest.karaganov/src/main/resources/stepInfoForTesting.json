@@ -1,0 +1,26 @@
+[ {
+  "currentQuestion" : "TestQuestion1",
+  "stepId" : 1,
+  "hasNextStep" : true,
+  "isWin" : false,
+  "answersForCurrentQuestion" : [ {
+    "text" : "Action1",
+    "ledToStep" : 2
+  }, {
+    "text" : "Action2",
+    "ledToStep" : 5
+  } ]
+}, {
+  "currentQuestion" : "TestQuestion2",
+  "stepId" : 2,
+  "hasNextStep" : true,
+  "isWin" : false,
+  "answersForCurrentQuestion" : [ {
+    "text" : "Action3",
+    "ledToStep" : 3
+  }, {
+    "text" : "Action4",
+    "ledToStep" : 6
+  } ]
+}
+]

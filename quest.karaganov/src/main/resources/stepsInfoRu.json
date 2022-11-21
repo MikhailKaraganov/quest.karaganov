@@ -1,0 +1,61 @@
+[ {
+  "currentQuestion" : "Приниять вызов?",
+  "stepId" : 1,
+  "hasNextStep" : true,
+  "isWin" : false,
+  "answersForCurrentQuestion" : [ {
+    "text" : "Принять вызов",
+    "ledToStep" : 2
+  }, {
+    "text" : "Отклонить вызов",
+    "ledToStep" : 5
+  } ]
+}, {
+  "currentQuestion" : "Подняться?",
+  "stepId" : 2,
+  "hasNextStep" : true,
+  "isWin" : false,
+  "answersForCurrentQuestion" : [ {
+    "text" : "Подняться",
+    "ledToStep" : 3
+  }, {
+    "text" : "Отказаться",
+    "ledToStep" : 6
+  } ]
+}, {
+  "currentQuestion" : "Правда?",
+  "stepId" : 3,
+  "hasNextStep" : true,
+  "isWin" : false,
+  "answersForCurrentQuestion" : [ {
+    "text" : "Правда",
+    "ledToStep" : 4
+  }, {
+    "text" : "Ложь",
+    "ledToStep" : 7
+  } ]
+}, {
+  "currentQuestion" : "Ты дома",
+  "stepId" : 4,
+  "hasNextStep" : false,
+  "isWin" : true,
+  "answersForCurrentQuestion" : null
+}, {
+  "currentQuestion" : "Ты не принял вызов",
+  "stepId" : 5,
+  "hasNextStep" : false,
+  "isWin" : false,
+  "answersForCurrentQuestion" : null
+}, {
+  "currentQuestion" : "Ты не поднялся на мост",
+  "stepId" : 6,
+  "hasNextStep" : false,
+  "isWin" : false,
+  "answersForCurrentQuestion" : null
+}, {
+  "currentQuestion" : "Ты соврал",
+  "stepId" : 7,
+  "hasNextStep" : false,
+  "isWin" : false,
+  "answersForCurrentQuestion" : null
+} ]
